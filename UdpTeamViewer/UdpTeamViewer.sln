@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpTeamViewer", "UdpTeamViewer.csproj", "{2776192C-56D2-4C4A-A251-FFC637756621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpTeamViewerClient", "..\UdpTeamViewerClient\UdpTeamViewerClient.csproj", "{7326BE63-10FF-4D04-B3D4-0E30C574C52B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2776192C-56D2-4C4A-A251-FFC637756621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2776192C-56D2-4C4A-A251-FFC637756621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2776192C-56D2-4C4A-A251-FFC637756621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2776192C-56D2-4C4A-A251-FFC637756621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7326BE63-10FF-4D04-B3D4-0E30C574C52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7326BE63-10FF-4D04-B3D4-0E30C574C52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7326BE63-10FF-4D04-B3D4-0E30C574C52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7326BE63-10FF-4D04-B3D4-0E30C574C52B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDDFB5EC-DBD0-4768-A050-6CB934B1A81A}
+	EndGlobalSection
+EndGlobal

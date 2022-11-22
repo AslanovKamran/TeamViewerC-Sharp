@@ -1,0 +1,44 @@
+﻿<Window x:Class="UdpTeamViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UdpTeamViewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontFamily="Century Gothic" FontSize="25" WindowStartupLocation="CenterScreen">
+
+    
+    <!--<DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <Button x:Name="ConnectButon" Click="ConnectButon_Click">Connect</Button>
+            <Label>Ip Adress:</Label>
+            <TextBox Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Text="{Binding Ip}"></TextBox>
+            <Label>Port:</Label>
+            <TextBox Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Text ="{Binding Port}"></TextBox>
+        </StackPanel>
+        <Image Source="{Binding Image}"></Image>
+    </DockPanel>-->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5.5*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Image Source="{Binding Image}"></Image>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <Button Grid.Column="0" x:Name="ConnectButon" Click="ConnectButon_Click">Connect</Button>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">Port:</Label>
+            <TextBox Grid.Column="2" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Text ="{Binding Port}"></TextBox>
+        </Grid>
+    </Grid>
+    
+</Window>
